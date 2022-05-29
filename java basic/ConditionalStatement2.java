@@ -1,7 +1,7 @@
 public class ConditionalStatement2 {
     private static void  main (String [] args) {
-        int a=18;
-        if(a<10){
+        int age=18;
+        if(age<10){
             System.out.println("the number is smaller than 10 ");
 
         }
