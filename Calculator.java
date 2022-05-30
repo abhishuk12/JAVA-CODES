@@ -11,6 +11,7 @@ public class Calculator {
          sc.nextLine();
          char operator=sc.nextLine().charAt(0);
          int result=0;
+         sc.close();
          switch(operator){
              case '+':
              result =(num1+num2);
@@ -23,8 +24,8 @@ public class Calculator {
              result=(num1/num2);
 
          }
-        
+         System.out.println("the value is "+ result);     
     }
-    System.out.println("the value is "+ result);
+   
     
 }
